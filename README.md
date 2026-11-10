@@ -204,6 +204,12 @@ throttle check \
 
 ```
 
+## Raw Terminal Outputs
+
+### MoE Benchmark (gpt-oss-20b)
+*Terminal output showing the $19.17/M cost and 18s latency on an 8GB RTX 5060.*
+![MoE Benchmark](moe-gpt-oss-20b.png.PNG)
+
 References
 FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution — arXiv:2608.16157 (Yang et al., UC Berkeley / MIT / UT Austin, August 2026)
 gpt-oss-20b Model Card — OpenAI Deployment Safety Hub
