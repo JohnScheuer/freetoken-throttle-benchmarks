@@ -39,10 +39,12 @@ throttle check --url http://localhost:1919 --model cognitivecomputations.Dolphin
 throttle check --url http://localhost:1919 --model gpt-oss-20b --gpu-hourly-rate 0.50 --label freetoken-moe --concurrency 4 --max-tokens 64
 
 ```
+## Raw Terminal Outputs
 
-Raw Terminal Outputs
-MoE Stress Test (gpt-oss-20b, 21B-A4B)
-Shows the $19.17/M cost and the 18s latency caused by CPU-GPU offloading limits on an 8GB GPU.
-https://moe-gpt-oss-20b.png/
+### MoE Stress Test (gpt-oss-20b, 21B-A4B)
+*Shows the $19.17/M cost and the 18s latency caused by CPU-GPU offloading limits on an 8GB GPU.*
 
+![MoE Benchmark](moe-gpt-oss-20b.png.PNG)
+
+---
 Authored by João Felipe de Souza (github.com/JohnScheuer)
