@@ -43,7 +43,17 @@ throttle check --url http://localhost:1919 --model cognitivecomputations.Dolphin
 # Optimized
 throttle check --url http://localhost:1919 --model cognitivecomputations.Dolphin3.0-Llama3.1-8B-GGUF --gpu-hourly-rate 0.50 --label freetoken-opt --concurrency 4 --max-tokens 64
 
+## Raw Terminal Outputs
 
+### 1. Baseline (Concurrency 2, Max 64 tokens)
+![Baseline Concurrency 2](baseline-concurrency1.png)
+
+### 2. Optimized (Concurrency 4, Max 64 tokens)
+![Optimized Concurrency 4](baseline-concurrency2.png)
+
+### 3. Stress Test (Concurrency 4, Max 256 tokens)
+![Stress Test](baseline-concurrency3.png)
+![Noise Check](baseline-concurrency4.png)
 
 
 #Authored by João Felipe de Souza (github.com/JohnScheuer)
