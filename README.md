@@ -46,14 +46,14 @@ throttle check --url http://localhost:1919 --model cognitivecomputations.Dolphin
 ## Raw Terminal Outputs
 
 ### 1. Baseline (Concurrency 2, Max 64 tokens)
-![Baseline Concurrency 2](baseline-concurrency1.png)
+![Baseline](baseline-concurrency1.png.PNG)
 
 ### 2. Optimized (Concurrency 4, Max 64 tokens)
-![Optimized Concurrency 4](baseline-concurrency2.png)
+![Optimized](baseline-concurrency2.png.PNG)
 
 ### 3. Stress Test (Concurrency 4, Max 256 tokens)
-![Stress Test](baseline-concurrency3.png)
-![Noise Check](baseline-concurrency4.png)
+![Stress Test](baseline-concurrency3.png.PNG)
+![Noise Check](baseline-concurrency4.png.PNG)
 
 
 #Authored by João Felipe de Souza (github.com/JohnScheuer)
