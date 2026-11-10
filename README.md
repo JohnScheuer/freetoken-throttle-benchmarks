@@ -1,3 +1,8 @@
+> ⚠️ **Under Correction:** The initial benchmark was run with a dense Llama-3.1-8B model (Dolphin 3.0) to validate the Throttle pipeline. A definitive MoE benchmark using Qwen3.6-35B-A3B (expert offloading) is currently running and will replace these results.
+
+
+
+
 # FreeToken & Throttle: Edge-Native MoE Serving Benchmarks
 
 This repository contains empirical benchmarks of **FreeToken** (an edge-native Mixture-of-Experts serving engine from UC Berkeley/MIT) running on consumer hardware (NVIDIA RTX 5060), measured using **Throttle** (a rigorous statistical cost-per-token measurement tool).
