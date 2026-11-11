@@ -46,7 +46,7 @@ numbers should not be trusted.
 | Component      | Detail                                              |
 |----------------|-----------------------------------------------------|
 | GPU            | NVIDIA GeForce RTX 5060 (8 GB VRAM)                |
-| OS             | Windows 11 + WSL2 (Ubuntu)                         |
+| OS             | Windows 10 + WSL2 (Ubuntu)                         |
 | FreeToken      | 0.2.0-beta                                          |
 | Throttle       | 0.6.2                                               |
 | Python         | 3.11                                                |
